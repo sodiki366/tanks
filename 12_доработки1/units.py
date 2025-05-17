@@ -52,7 +52,7 @@ class Unit:
         self.stop()
         self._speed = 0
         if not self._bot:  # только для игрока меняем на огонь
-            self._canvas.itemconfig(self._id, image=skin.get('fire2'))
+            self._canvas.itemconfig(self._id, image=skin.get('fire4'))
         else:
             self._canvas.itemconfig(self._id, image=skin.get(self._destroy_image))
 
